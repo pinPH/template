@@ -1,0 +1,38 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+        <mj-attributes>
+            <mj-all font-family="Roboto, Arial, sans-serif" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#f4f4f4">
+        <!-- Header -->
+        <mj-section background-color="#2E7D32" padding="20px">
+            <mj-column>
+                <mj-text color="#ffffff" font-size="24px" align="center">
+                    Hello World !!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Main Content -->
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column>
+                <mj-text font-size="20px" color="#2E7D32" padding-top="20px">
+                    Hello, {{name}}!
+                </mj-text>
+                <mj-text font-size="16px" color="#333333" line-height="150%">
+                    This is just a test email to demonstrate templating with dynamic content.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer -->
+        <mj-section background-color="#2E7D32" padding="20px">
+            <mj-column>
+                <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+                </mj-social>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
